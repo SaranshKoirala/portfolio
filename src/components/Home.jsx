@@ -1,6 +1,7 @@
 import React from "react";
 import HeroImage from "../assets/heroImage.png";
 import SaranshResume from "../assets/SaranshResume.pdf";
+import SaranshCV from "../assets/CV.pdf";
 
 const Home = () => {
   return (
@@ -28,7 +29,7 @@ const Home = () => {
 
           <div className="portfolio-btn">
             <a
-              href={SaranshResume}
+              href={SaranshCV}
               download="SaranshResume"
               className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
             >
